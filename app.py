@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__, template_folder='templates')
 
-@app.route("/")
+@app.route('/',methods=['GET'])
 
 @app.route("/kidney")
 def cancer():
